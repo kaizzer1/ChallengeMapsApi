@@ -85,7 +85,6 @@ export function MapsDelivery({ delivery, setDelivery }) {
   };
 
   const directionsServiceOptions = useMemo(() => {
-    console.log({ origin, destination });
     return {
       origin,
       destination,
@@ -97,7 +96,6 @@ export function MapsDelivery({ delivery, setDelivery }) {
     if (res !== null && res.status === "OK") {
       setResponse(res);
     } else {
-      console.log(res);
     }
   }, []);
 
