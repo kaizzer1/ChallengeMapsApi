@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+
+  background-color: #404040;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
+}
